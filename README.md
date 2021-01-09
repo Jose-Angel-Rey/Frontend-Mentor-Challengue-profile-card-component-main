@@ -8,4 +8,5 @@ Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
-To see this challengue visit the following link: http://frontend-mentor-challengue-profile-card-component-main.jose-angel-rey.vercel.app/
+My challengue solution: http://frontend-mentor-challengue-profile-card-component-main.jose-angel-rey.vercel.app/
+Contact: dev.joseangel.rey@gmail.com
