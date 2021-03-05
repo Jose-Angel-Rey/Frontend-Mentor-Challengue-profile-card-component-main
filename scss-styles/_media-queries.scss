@@ -1,39 +1,36 @@
-// @media screen and (min-width: 200px) and (max-width: 425px) {
-//     .card-container {
-//       width: 90%;
-//     }
-  
-//     .bg-pattern-top{
-//       top: -500px;
-//       left: -750px;
-//     }
-    
-//     .bg-pattern-bottom{
-//       bottom: -500px;
-//       right: -700px;
-//     }
-//   }
-//   @media screen and (min-width: 426px) and (max-width: 768px) {
-   
-//     .bg-pattern-top{
-//       top: -500px;
-//       left: -750px;
-//     }
-    
-//     .bg-pattern-bottom{
-//       bottom: -500px;
-//       right: -700px;
-//     }
-//   }
-//   @media screen and (min-width: 769px) and (max-width: 1024px) {
-   
-//     .bg-pattern-top{
-//       top: -500px;
-//       left: -500px;
-//     }
-    
-//     .bg-pattern-bottom{
-//       bottom: -600px;
-//       right: -400px;
-//     }
-//   }
+/* Media queries*/
+@media screen and (min-width: 500px) {
+  .main-container {
+    &::before {
+      left: -70vh;
+    }
+    &::after {
+      width: 10%;
+      right: 50vh;
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .main-container {
+    &::before {
+      left: -55vh;
+      top: -65vh;
+    }
+    &::after {
+      right: 75vh;
+      bottom: -70vh;
+    }
+  }
+  .attribution {
+    align-self: flex-end;
+    transform: translate(-10vh, 15vh);
+  }
+}
+@media screen and (min-width: 1300px) {
+  .main-container {
+    &::before {
+      left: -35vh;
+      top: -70vh;
+    }
+  }
+}
