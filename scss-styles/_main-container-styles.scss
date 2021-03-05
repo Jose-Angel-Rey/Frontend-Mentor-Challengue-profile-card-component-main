@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: hsl(185, 75%, 39%);
+  }
+
+  main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+//   .bg-pattern-top {
+//     position: fixed;
+//     top: -500px;
+//     left: -300px;
+//     z-index: -1000;
+//   }
+//   .bg-pattern-bottom {
+//     position: fixed;
+//     bottom: -670px;
+//     right: -200px;
+//     z-index: -1000;
+//   }
