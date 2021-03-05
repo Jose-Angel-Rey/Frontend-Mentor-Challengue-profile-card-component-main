@@ -15,34 +15,9 @@
   align-items: center;
   overflow: hidden;
   position: relative;
-
-  &::before {
-    content: url(../images/bg-pattern-top.svg);
-    position: absolute;
-    width: 20%;
-    height: auto;
-    left: -100vh;
-    top: -70vh;
-  }
-  &::after {
-    content: url(../images/bg-pattern-bottom.svg);
-    position: absolute;
-    width: 20%;
-    height: auto;
-    right: 20vh;
-    bottom: -70vh;
-  }
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -75vh -110vw,20vh 100vw;
 }
-
-//   .bg-pattern-top {
-//     position: fixed;
-//     top: -500px;
-//     left: -300px;
-//     z-index: -1000;
-//   }
-//   .bg-pattern-bottom {
-//     position: fixed;
-//     bottom: -670px;
-//     right: -200px;
-//     z-index: -1000;
-//   }

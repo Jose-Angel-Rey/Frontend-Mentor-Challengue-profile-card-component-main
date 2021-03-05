@@ -5,14 +5,15 @@
   line-height: 20px;
   color: #fff;
   font-size: 13px;
+  transition: all .5s;
   a {
     color: #252525;
 
     &:hover {
-      color: #202020;
+      color: #444444;
     }
     &:active {
-      color: $card-sub-title-fnt-color;
+      color: #fff;
     }
   }
 }
