@@ -1,7 +1,18 @@
+/* Attribution styles */
 .attribution {
+  font-family: "Kumbh Sans", sans-serif;
   text-align: center;
+  line-height: 20px;
+  color: #fff;
   font-size: 13px;
   a {
-    color: hsl(229, 16%, 21%);
+    color: #252525;
+
+    &:hover {
+      color: #202020;
+    }
+    &:active {
+      color: $card-sub-title-fnt-color;
+    }
   }
 }
