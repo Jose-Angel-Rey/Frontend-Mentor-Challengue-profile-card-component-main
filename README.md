@@ -6,9 +6,9 @@
 
 Thanks for checking my front-end coding challenge solution.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
+[Frontend Mentor](https://www.frontendmentor.io) challenges allow improve skills in a real-life workflow.
 
 💡 My challengue solution: 
-http://frontend-mentor-challengue-profile-card-component-main.jose-angel-rey.vercel.app/
+https://profile-card-component-jose-angel-rey.vercel.app/
 
 💻 Contact: dev.joseangel.rey@gmail.com
